@@ -12,8 +12,8 @@ public class Artist {
     private String nameArtist;
     private String bio;
 
-    @OneToOne(mappedBy = "artist", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Concert concert;
+    /*@OneToOne(mappedBy = "artist", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Concert concert;*/
 
     // Constructors
 
@@ -51,11 +51,11 @@ public class Artist {
         this.bio = bio;
     }
 
-    public Concert getConcert() {
+    /*public Concert getConcert() {
         return concert;
     }
 
     public void setConcert(Concert concert) {
         this.concert = concert;
-    }
+    }*/
 }

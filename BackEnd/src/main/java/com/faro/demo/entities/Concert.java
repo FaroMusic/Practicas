@@ -13,8 +13,8 @@ public class Concert {
     private String lugar;
     private String nombreEvento;
 
-    @OneToOne
-    private Artist artist;
+    /*@OneToOne
+    private Artist artist;*/
 
     // Constructors
 
@@ -61,11 +61,11 @@ public class Concert {
         this.nombreEvento = nombreEvento;
     }
 
-    public Artist getArtist() {
+    /*public Artist getArtist() {
         return artist;
     }
 
     public void setArtist(Artist artist) {
         this.artist = artist;
-    }
+    }*/
 }

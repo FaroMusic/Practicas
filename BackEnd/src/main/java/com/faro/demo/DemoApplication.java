@@ -77,8 +77,8 @@ public class DemoApplication implements CommandLineRunner {
         Artist artist0 = artistRepository.findById(1).orElse(null);
         Artist artist1 = artistRepository.findById(2).orElse(null);
 
-        concert0.setArtist(artist1);
-        concert1.setArtist(artist0);
+        /*concert0.setArtist(artist1);
+        concert1.setArtist(artist0);*/
         concertRepository.saveAndFlush(concert0);
         concertRepository.saveAndFlush(concert1);
 
