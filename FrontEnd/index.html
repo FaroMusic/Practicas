@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS personalizado -->
+  <title>Mi Página</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/logo.png" alt="Logo Faro Music" width="200px" height="80px">
+    </div>
+    <ul class="nav-list">
+      <li><a href="#">Artistas</a></li>
+      <li><a href="#">Empresas</a></li>
+      <li><a href="#">Nosotros</a></li>
+      <li><a href="#">Conciertos</a></li>
+      <li><a href="#">Otros</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <!-- Fondo fijo -->
+    <div class="background-image"></div>
+
+    <!-- Contenido de la página -->
+    <div class="content">
+      <h1 class="stop-scrolling-title">RAQUEL LÚA</h1>
+
+      <div class="row">
+        <!-- Columna izquierda -->
+        <div class="col-lg-6">
+          <div class="container-left text-center"> <!-- Añadida la clase text-center -->
+            <div class="text-container">
+              <h2 class="container-title">Texto Artista</h2>
+              <!-- Contenido de "texto-artista" -->
+            </div>
+            <div class="concerts-container">
+              <h2 class="container-title">Conciertos Artista</h2>
+              <!-- Contenido de "conciertos-artista" -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="col-lg-6">
+          <div class="container-right text-center"> <!-- Añadida la clase text-center -->
+            <div class="videos-container">
+              <h2 class="container-title">Videos Artista</h2>
+              <!-- Contenido de "videos-artista" -->
+            </div>
+            <div class="albums-container">
+              <h2 class="container-title">Discos Artista</h2>
+              <!-- Contenido de "discos-artista" -->
+            </div>
+            <div class="pictures-container">
+              <h2 class="container-title">Fotos Artista</h2>
+              <!-- Contenido de "discos-artista" -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resto del contenido -->
+
+      <!-- Más contenido aquí -->
+    </div>
+  </div>
+  <!-- Flechas de navegación -->
+  <div class="navigation-arrows">
+    <a href="#" class="arrow" id="prev-artist">&lt; Artista Previo</a>
+    <a href="#" class="arrow" id="next-artist">Artista Siguiente &gt;</a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="artistInfo.js"></script> 
+  <script src="concertInfo.js"></script> 
+  <script src="videoInfo.js"></script>
+  <script src="albumInfo.js"></script>
+  <script src="pictureInfo.js"></script>
+</body>
+
+</html>

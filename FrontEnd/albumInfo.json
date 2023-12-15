@@ -1,0 +1,37 @@
+{
+  "albumInfo": {
+    "title": "Discos Artista",
+    "albums": [
+      {
+        "src": "d1.png",
+        "alt": "Disco 1",
+        "url": "https://open.spotify.com/intl-es/album/7If6XahI9AqBcHY7MiBvNf"
+      },
+      {
+        "src": "d2.png",
+        "alt": "Disco 2",
+        "url": "https://open.spotify.com/intl-es/track/3CHY4heGf6A6C32uFfp5yD"
+      },
+      {
+        "src": "d3.png",
+        "alt": "Disco 3",
+        "url": "https://open.spotify.com/intl-es/album/2x0pEeEkyLY83L4fxTzlZA"
+      },
+      {
+        "src": "d1.png",
+        "alt": "Disco 1",
+        "url": "https://open.spotify.com/intl-es/album/7If6XahI9AqBcHY7MiBvNf"
+      },
+      {
+        "src": "d2.png",
+        "alt": "Disco 2",
+        "url": "https://open.spotify.com/intl-es/track/3CHY4heGf6A6C32uFfp5yD"
+      },
+      {
+        "src": "d3.png",
+        "alt": "Disco 3",
+        "url": "https://open.spotify.com/intl-es/album/2x0pEeEkyLY83L4fxTzlZA"
+      }
+    ]
+  }
+}

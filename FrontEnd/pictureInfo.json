@@ -1,0 +1,31 @@
+{
+    "pictureInfo": {
+        "title": "Fotos Artista",
+        "pictures": [
+            {
+                "src": "f1.png",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "f2.png",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "f3.png",
+                "alt": "Foto 3"
+            },
+            {
+                "src": "f1.png",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "f2.png",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "f3.png",
+                "alt": "Foto 3"
+            }
+        ]
+    }
+}

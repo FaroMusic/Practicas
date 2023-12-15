@@ -1,0 +1,50 @@
+{
+    "concertInfo": {
+      "title": "Conciertos Artista",
+      "tableData": [
+        {
+          "date": "16/08/23",
+          "artist": "Lia Sampai",
+          "city": "Barcelona",
+          "event": "Festes de Gràcia",
+          "price": "GRATUITO"
+        },
+        {
+          "date": "17/08/23",
+          "artist": "Sandra Bautista",
+          "city": "Barcelona",
+          "event": "CC Can Verdaguer",
+          "price": "GRATUITO"
+        },
+        {
+          "date": "02/09/23",
+          "artist": "Sandra Bautista",
+          "city": "Sant Quirze del Vallès",
+          "event": "FM SQV 23",
+          "price": "GRATUITO"
+        },
+        {
+          "date": "09/09/23",
+          "artist": "Raquel Lúa",
+          "city": "Sant Boi de Llobregat",
+          "event": "Festival Altaveu",
+          "price": "GRATUITO"
+        },
+        {
+          "date": "09/09/23",
+          "artist": "Raquel Lúa",
+          "city": "Sant Boi de Llobregat",
+          "event": "Festival Altaveu",
+          "price": "GRATUITO"
+        },
+        {
+          "date": "09/09/23",
+          "artist": "Raquel Lúa",
+          "city": "Sant Boi de Llobregat",
+          "event": "Festival Altaveu",
+          "price": "GRATUITO"
+        }
+      ]
+    }
+  }
+  
